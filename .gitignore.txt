@@ -1,0 +1,79 @@
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Unity Generated Folders ---
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+Recordings/
+
+# --- Unity Cache & Packages ---
+*.unitypackage
+*.package
+*.cache
+/*.unityproj
+*.collabignore
+
+# --- VS / Rider / MonoDevelop ---
+.vscode/
+.vs/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.pidb
+*.user
+*.userprefs
+*.booproj
+*.svd
+
+# --- Generated Files ---
+*.mdb
+*.opendb
+*.VC.db
+*.pidb
+*.symbols.zip
+
+# --- Auto Build Artifacts ---
+*.apk
+*.aab
+*.ipa
+*.xcodeproj
+*.xcworkspace
+*.keystore
+
+# --- Crash / Reports ---
+crash/
+*.stacktrace
+*.dmp
+
+# --- ShaderCache (URP/HDRP) ---
+ShaderCache/
+*.shaderGraph.meta
+
+# --- Build Cache (Optional) ---
+Library/Bee/
+Library/Artifacts/
+Library/ScriptAssemblies/
+Library/PackageCache/
+
+# --- Asset Store Packages ---
+Assets/AssetStoreTools*
+Assets/Plugins/Editor/JetBrains*
+
+# --- Ignore Local Settings ---
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/EditorBuildSettings.asset
+ProjectSettings/QualitySettings.asset
+
+# Optional: Keep Scenes & Assets
+!Assets/
+!ProjectSettings/
+!Packages/
